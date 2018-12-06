@@ -1,0 +1,5 @@
+When you have a huge configuration files with several objects, nagios might take little longer to start. 
+Using nagios -s option, you can see how much time Nagios might spend procesing configuration files. 
+This also gives an approximate estimation on how much time you might save if you cache the configuration objects.
+
+# /usr/local/nagios/bin/nagios -s  /usr/local/nagios/etc/nagios.cfg
